@@ -2,7 +2,7 @@
 
 export default function Page() {
     return (
-        <form name="contact" method="POST" netlify>
+        <form name="contact" method="POST" data-netlify="true">
             <p>
                 <label>Email: <input type="email" name="email" /></label>
             </p>
